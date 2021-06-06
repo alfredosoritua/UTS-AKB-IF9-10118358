@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akb10118358">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.akb10118358">
+        <activity android:name="com.example.akb10118358.deleteTask.DeleteTaskActivity"></activity>
+        <activity
+            android:name="com.example.akb10118358.editTask.EditTaskActivity"
+            android:label="Edit Task" />
+        <activity
+            android:name="com.example.akb10118358.createTask.CreateTaskActivity"
+            android:label="Create Task" />
+        <activity
+            android:name="com.example.akb10118358.splash.SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.akb10118358.main.MainActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

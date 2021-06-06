@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".deleteTask.DeleteTaskActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    style="@style/myBody">
+
+    <TextView
+        android:id="@+id/apakah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Yakin ?"
+        android:textSize="24dp"
+        style="@style/myTextPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/deleteYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ya"
+            android:layout_marginRight="10dp"
+            style="@style/myButton"/>
+        <Button
+            android:id="@+id/deleteNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tidak"
+            style="@style/myDeleteButton"/>
+    </LinearLayout>
+
+</LinearLayout>
